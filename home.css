@@ -681,6 +681,15 @@ b {
 	margin-top: 0;
 }
 
+.box8-2 {
+	text-align: center;
+}
+
+.funfact {
+	max-width: 350px;
+	margin: 0 auto;
+}
+
 }
 
 /* ----------------------------------- 600 - 767px -----------------------------------*/ 
@@ -788,8 +797,11 @@ h1 {
 	margin-top: 0;
 }
 
-.stickynore {
-	width: 500px;
+.box8-2 {
+	text-align: center;
+}
+.funfact {
+	max-width: 350px;
 	margin: 0 auto;
 }
 
