@@ -76,7 +76,7 @@ b {
 	clear: both;
 }
 
-.box3-1, .now, .box3-2, .inner1, .inner2,
+.box3, .box3-1, .aboutme, .now, .box3-2, .box4, .inner1, .inner2,
 .box4-1, .box4-2, .box4-3,
 .box5, .box5-1, .box5-2, .box5-3,
 .box7, .box8-1, .box8-2, .bottom  {
@@ -248,20 +248,20 @@ b {
 	padding-bottom: 0;
 }
 
-#aboutme2 {
+#aboutme2, #aboutme1 {
 	margin: 0;
+	padding: 0;
+	color: white;
+	line-height: 1.4;
+}
+
+#aboutme2 {
 	font-weight: 200;
 	font-size: 17px;
-	color: white;
-	padding: 0;
-	text-align: left;
 }
 
 #aboutme1 {
 	font-size: 25px;
-	color: white;
-	margin: 0;
-	padding: 0;
 }
 
 .aboutme span {
@@ -617,6 +617,10 @@ peach beige = #edb49a*/
 /* ----------------------------------- 599px -----------------------------------  */
 @media (max-width: 599px) {
 
+.sec1 {
+	padding-top: 15px;
+}
+
 h1, .heejoo h1 {
 	font-size: 30px;
 	text-align: center;
@@ -627,8 +631,16 @@ p, #aboutme2 {
 	font-size: 13px;
 }
 
-b, #aboutme1 {
+b {
 	font-size: 15px;
+}
+
+#aboutme1 {
+	font-size: 17px;
+}
+
+.aboutme {
+	padding-bottom: 20px;
 }
 
 .box1 {
@@ -751,10 +763,15 @@ b, #aboutme1 {
 	margin: 0 auto;
 }
 
+.sec9 {
+	padding-bottom: 30px;
+}
+
 .bottom {
 	width: auto;
 	max-width: 250px;
 	margin: 0 auto;
+	padding-bottom: 0;
 }
 .bottom a {
 	font-size: 13px;
@@ -786,7 +803,9 @@ h1 {
 .profile_photo {
 	width: 200px;
 }
-
+.sec3 {
+	padding-top: 20px;
+}
 .box3 {
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -795,14 +814,24 @@ h1 {
 .box3-1 {
 	float: right;
 	width: 38%;
-	padding-right: 20px;
+	padding-right: 40px;
 }
 
 .box3-2 {
 	float: left;
 	width: 62%;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 50px;
+	padding-right: 5px;
+}
+
+.aboutme {
+	padding: 20px;
+	padding-left: 0;
+	padding-top: 0;
+}
+
+#aboutme1 {
+	font-size: 20px;
 }
 
 .sec4 {
@@ -878,8 +907,8 @@ h1 {
 .bottom {
 	width: 50%;
 	margin: 0 auto;
+	padding: 0;
 }
-
 
 }
 
@@ -986,6 +1015,7 @@ h1 {
 .bottom {
 	width: 40%;
 	margin: 0 auto;
+	padding-bottom: 0;
 }
 
 
@@ -994,7 +1024,7 @@ h1 {
 /* ----------------------------------- 1040px -----------------------------------  */
 @media (min-width: 1000px) {
 
-.box1, .menu, .box3, .box4, .box5, .box5-3, .box7, .box8, .box9, .box10 {
+.box1, .menu, .box3, .box4, .box5, .box5-3, .box7, .box8, .bottom, .box10 {
 	max-width: 1040px;
 	margin: 0 auto;
 }
@@ -1125,11 +1155,11 @@ h1 {
 	padding-top: 10px;
 }
 
+.bottom {
+	max-width: 400px;
+}
 .sec9 {
 	padding-top: 0;
-}
-.bottom {
-	padding: 0px;
 }
 
 }
