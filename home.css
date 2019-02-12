@@ -595,6 +595,7 @@ peach beige = #edb49a*/
 
 .bottom a {
 	text-decoration: none;
+	-webkit-text-decoration: none;
 }
 
 /* ----------------------------------- box10 -----------------------------------  */
