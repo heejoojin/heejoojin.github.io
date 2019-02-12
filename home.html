@@ -1,183 +1,240 @@
-<!DOCTYPE html> <!--stating that it is using html5-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UFT-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--(initial scale)it is to how change the widteh when phones are tilted--> 
-	<title>Heejoo Jin</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Fugaz+One|Lobster" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-	<link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet">
-
-
-	<link rel="stylesheet" href="home.css">
-	<!--<link rel="stylesheet" href="grid.css">-->
-	<!--http://jessdesigntan.com
-		https://www.thebeastisback.com/about/-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heejoo Jin</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-	<section class="sec1">
-	<div class="box1">
-		<div class="heejoo">
-		<h1>Hi, I'm Heejoo !</i></h1>
-		<img class="profile_photo" src="images/heej.png" alt="">
-		<p class="change">student + developer + 
-chocolate lover <i class="fa fa-heart" id="heart" aria-hidden="true"></i> </p>
-	</div>
-	</section>
+  <header id="about">
 
-	<section class="sec2">
-	<div class="box2">
-		<p><span id="contact">Let's keep in touch ! <i class="fas fa-grin-squint"></i></span></p>
-		<nav class="menu">
-			<a href="tel:404-673-4465" target="_blank"><i class="fas fa-phone" id="phone"></i> 404.673.4465</a>
-			<a href="mailto:hjin77@gatech.edu" target="_blank"><i class="fas fa-envelope" id="email"></i>&nbsp;&nbsp;hjin77@gatech.edu</a>
-		</nav>
-	</div>
-	</section>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#edu">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#work">Work Experience</a>
+      <a href="#about2">More</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="content-wrap">
+      <img class="profile-img col-narrow" src="images/HeejooJin.jpg" alt="Heejoo Jin">
+      <div class="col-wide">
+        <h1>Heejoo Jin</h1>
 
-	<section class="sec3">
-	<div class="box3">
-		<div class="box3-1">
-			<!-----------------aside----------->
-			<div class="now">
-				<img class="finn" src="images/finn.png" alt="">
-				<img class="bubble" src="images/bubblegum.png" alt="">
-				<img class="jake" src="images/jake.png" alt="">
-				<p>Currently working as<span id="cn"><br/>Cartoon Network<br>Games QA Engineer</span></p>
-				<!--<aside class="profile">-->
-					<!--<h1>Heejoo Jin</h1>-->
-				<!--</aside>-->
-			</div>
-		</div>
-		<div class="box3-2">
-			<!----------article---------------->
-			<h1>About me</h1>
-			<article class="aboutme">
-				<!--<i class="fa fa-hand-paper-o" aria-hidden="true"></i>-->
-				<p> Second-Year Computer Science Student at Georgia Tech.</p>
-			</article>
-		</div>
-	</section>
-	<section class="sec4">
-		<h2><i class="fas fa-school" id="edu"></i></h2>
-		<h1>Education</h1>
-		<div class="box4">
-		<div class="box4-1">
-				<div class="inner1">
-				<img class="gatech" src="icons/gatech.png" alt="">
-				</div>
-				<div>
-				<div class="inner2">
-				<p>August 2017 - Present<br/><br/><b>Georgia Institute of Technology</b><br/>Atlanta, Georgia<br/><br/><span id="major"><b>Compuer Science<br/>- Media & Intelligence</b><br/></span></p>
-				</div>
-				<p><span id="inner3"><b>• GPA:</b> 3.68 / 4.00<br/><b>• Relevant courses:</b><br/>Intro to Computing Using Python, Object-Oriented Programming, Data Structure & Algorithms</span></p>
-				</div>
-		</div>
-		<div class="box4-2">
-			<div class="inner1">
-				<img class="yonsei" src="icons/yonseiuni.png" alt="">
-			</div>
-			<div>
-				<div class="inner2">
-				<p> <span id="text">Summer 2018<br/><br/><b>Yonsei University</b><br/>Seoul, Korea<br/><br/>Summer Study Abroad Program<br/></span></p>
-				</div>
-				<p><span id="inner3"><b>• GPA:</b> 3.90 / 4.00<br/><b>• Relevant courses:</b><br/>General Psychology, Principles of Macroeconomics, International Economics</span></p>
-			</div>
-		</div>
-		<div class="box4-3">
-			<div class="inner1">
-				<img class="stmatts" src="icons/stmatts.png" alt="">
-			</div>
-			<div>
-			<div class="inner2">
-				<p><span id="text">Feburary 2014 - December 2016<br/><br/><b>St Matthew's Collegiate School</b><br/>Wellington, New Zealand</span><br/></p>
-			</div>
-				<p><span id="inner3"><b>· GPA:</b> 4.00 / 4.00<br/><b>· Honors & Awards:</b><br/>Valedictorian, The Duke of Edinburgh’s Hillary Silver Awards, NZ Choral Federation’s Regional Festivals - Festival Cup</span></p>
-			</div>
-		</div>
-		</div>
-	</section>
-	<section class="sec5">
-		<h2><i class="fas fa-briefcase" id="work"></i></h2>
-		<h1 id="title">Experience</h1>
-		<div class="box5">
-			<div class="box5-1">
-				<img class="cn" src="images/cn.png" alt="">
-			</div>
-			<div class="box5-2">
-				<p><span id="date">January 2019 - Present</span><br/><br/><b>Turner Brodcasting System<br/>Cartoon Network</b><br/><span id="loco">Atlanta, Georgia</span><br/><br/>Games Quality Assurance Engineer Co-op</p>
-			</div>
-		</div>
-		<div class="box5-3">
-		<p>
-		<b>·</b> Debug and conduct day-to-day testing of mobile games, console games and 
-		mobile apps that reached over millions of users.<br/><br/>
-		<b>·</b> Ensure that digital content quality meets standards for mass market consumption.<br/><br/>
-		<b>·</b> Work directly with game developers and producers on creating a final product.
-		</p> 
-		</div>
-	</section>
-	<section class="sec6">
-		<h2><i class="fas fa-project-diagram" id="proj"></i></i></h2>
-		<h1>Project</h1>
-		<div class="box5">
-			<div class="box5-1">
-				<img class="ar" src="icons/ar.png" alt="">
-			</div>
-			<div class="box5-2" id="box6-2">
-				<p id="text">August 2018 - Present<br/><br/><b>Augumented Reality Design Project</b><br/><br/>Georgia Institute of Technology<br/>Vertical Integrated Program</p>
-			</div>
-		</div>
-		<div class="box5-3">
-		<p>
-		<b>·</b> Build AR experiences that enhance a devised theatre process by using Unity, Richo 360° camera, and C# scripting.<br/><br/>
-		<b>·</b> Develop a prototype that brings performing artists’ imagination onto
-		their stages.<br/><br/>
-		<b>·</b> Conduct user research on Viewpoints and Rasaboxes - techniques of
-		performance art for creating movements.
-		</p>
-		</div>
-	</section>
-	<section class="sec7">
-		<h2><i class="fas fa-users" id="org"></i></h2>
-		<h1>Involvement</h1>
-		<div class="box7">
-			<ul>
-				<li><img class="ksea" src="icons/ksea.png" alt="">
-					<div class="involvement"><b>KSEA</b><br/>Korean American Scientists and Engineers Association<br/><br/><b>Finance Director</b></div>
-				</li>
-				<li><img class="akpsi" src="icons/akpsi.png" alt="">
-					<div class="involvement"><b>Alpha Kappa Psi</b><br/>Professional Co-ed Business Fraternity<br/><br/><b>Active Member</b></div>
-				</li>
-				<li><img class="wacc" src="icons/wacc.png" alt="">
-					<div class="involvement"><b>Women@CC</b><br/>Georgia Tech Women @ College of Computing<br/><br/><b>Active Member</b></div>
-				</li>
-				<li><img class="aaacf" src="icons/aaacf.png" alt="">
-					<div class="involvement"><b>AAACF</b><br/>Atlanta Asian American College Fair<br/><br/><b>College Representative Student Consultant of Georgia Tech</b></div>
-				</li>
-		</div>
-	</section>
-	<section class="sec8">
-		<div class="box8">
-			<div class="box8-1">
-				<h1><!--<i class="fas fa-laptop-code" id="code"></i>-->&nbsp;&nbsp;<i class="fas fa-code"></i>&nbsp;&nbsp;Programming&nbsp;&nbsp;Skills</h1>
-				<p><b>Python<br/>Java<br/>HTML, CSS, Javascript</br>C#<br/>VPython</b></p>
-				<h1>&nbsp;&nbsp;<i class="fas fa-pen"></i>&nbsp;&nbsp;Tools</h1>
-				<p><b>Unity, Vuforia, OpenCV, A-Frame<br/>Adobe Photoshop, Adobe InDesign</b></p>
-				<h1>&nbsp;&nbsp;<i class="fas fa-language"></i>&nbsp;&nbsp;Languages</h1>
-				<p><b>Korean</b> – Native<br/><b>English</b> – Fluent<br/><b>German</b> – Beginner<br/><b>Japanese</b> – Beginner</p>
-			</div>
-			<div class="box8-2">
-				<h1>Fun Facts !</h1>
-				<img class="funfact" src="images/funfact.png" alt="">
-			</div>
-	</section>
-	<div class="box10">
-		<div class="copyright">
-			<p>Copyright &copy; 2019 Heejoo Jin. All rights reserved.</p><!--copyright symbol-->
-		</div>
-	</div>
+        <h2>About me</h2>
+        <h3><b>Curious Computer Science Student !</b></h3>
+        <p>My current passion is <b>front-end web design, computer graphics, VR, AR, MR, and game development.</b> I strive to strengthen my skills of advanced coding techniques as well as artistic skills.</p> 
+        <p>I am looking for Spring 2018 or Summer 2019 internship where I can contribute creative ideas in both technical and aesthetic regards.</p>
+	<a href="Resume_HeejooJin.pdf" class="btns moreabout" target=_blank style="text-align:right;">See my resume in PDF :)</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+
+    <!-- // Education -->
+    <section id="edu" class="edu">
+      <div class="content-wrap">
+        <h2>Education</h2>
+        <a href="http://www.gatech.edu" target="_blank">
+        <img class="gatech-img" src="images/Buzz.png" alt="Georgia Tech">
+        </a>
+
+        <!-- Edu Details -->
+          <h3>Georgia Institute of Technology, Atlanta, Georgia</h3>
+          <h4>August 2017 – Present</h4>
+          <table style="width: 100%">
+          	<tr>
+                <td>•</td>
+                <td><b>GPA</b></td>
+                <td>3.79 / 4.00</td>
+            </tr>       
+            <tr>
+                <td>•</td>
+                <td><b>Year</b></td>
+                <td>Sophomore</td>
+            </tr>
+            <tr>
+              <td>•</td>
+              <td><b>Major</b></td>
+              <td>Computer Science</td>
+            </tr>
+            <tr>
+              <td>•</td>
+              <td><b>Concentration</b></td>
+              <td>Media & Intelligence</td>
+            </tr>
+            <tr>
+              <td>•</td>
+              <td><b>Expected Graduation</b></td>
+              <td>May 2021</td>
+            </tr>
+          </table>
+          <h6>Click Buzz to visit Georgia Tech website!</h6>
+
+      </div>
+    </section>
+
+    <section id="edu" class="edu">
+      <div class="content-wrap_edu">
+
+        <!-- Edu Details -->
+          <h3>Yonsei University, Seoul, South Korea</h3>
+          <h4>Summer Study Abraod Program 2018</h4>
+          <table style="width: 100%">
+          	<tr>
+                <td>•</td>
+                <td><b>GPA<span style="padding-right: 60px"></span></b></td>
+                <td>3.90 / 4.00</span></td>
+            </tr>       
+          </table>
+        </div>
+      </section>
+          
+    <section id="edu" class="edu">
+      <div class="content-wrap_edu">          
+          <h3>St Matthew's Collegiate School, Masterton, New Zealand</h3>
+          <h4>Febuary 2014 – December 2016</h4>
+          <table style="width: 100%">
+            <tr>
+                <td>•</td>
+                <td><b>GPA</b></td>
+                <td>4.00 / 4.00</span></td>
+            </tr>
+            <tr>
+                <td>•<span style="padding-right: 10px"></span></td>
+                <td><b>Awards</b></td>
+                <td>Valedictorian 2015 & 2016, International Prefect 2016, The Duke of Edinburgh’s Hillary Silver Awards</td>
+                
+            </tr>
+          </table>
+        </div>
+      </section>
+
+    <!-- // Projects -->
+    <section id="projects" class="projects">
+      <div class="content-wrap">
+        <h2>Projects</h2>
+        <h3>Applied AR Design Project</h3>
+        <h4>Georgia Institute of Technology</h4>
+        <h4>August 2018 - Present</h4>
+        <table style="width: 100%">
+          <tr>
+            <td>•</td>
+            <td>Build AR experiences that enhance a devised theatre process by using Unity, Richo 360° camera, and C# scripting.</td>
+          </tr>
+          <tr>
+            <td>•</td>
+            <td>Develop a prototype that brings performing artists’ imagination onto their stages.</td>
+          </tr>
+          <tr>
+            <td>•</td>
+            <td>Conduct user research on Viewpoints, a technique of performance art for creating movements.</td>
+          </tr>
+        </table>
+      </div>
+      <div class = "content-wrap_proj">
+        <h3>Magazine Project, <a href="http://pwp.gatech.edu/stem-the-divide/" target=_blank>"STEN the Divide"</a></h3>
+        <h4>Georgia Institute of Technology</h4>
+        <h4>Spring 2018</h4>
+        <table>
+          <tr>
+            <td>•</td>
+            <td>“STEM the Divide” is a magazine aimed at teenage girls, interested in the fields of STEM.</td>
+          </tr>
+          <tr>
+            <td>•</td>
+            <td>Wrote and curated articles as well as created a cartoon about women in stem, highlighting accomplishments and struggles alike.</td>
+          </tr>
+          <tr>
+            <td>•</td>
+            <td>Worked as a lead website designer.</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <!-- // Work Experience -->
+    <section id="work" class="work">
+
+      <div class="content-wrap">
+      	
+
+        <h2>Work experience</h2>
+
+        
+        <h3>UNIQLO Sales Associate</h3>
+        <h4>January 2017 - July 2017</h4>
+        <p>Full-time Job</p>
+          <ul>
+            <li>In-store customer service specialist</li>
+            <li>Responsible for exceeding customer expectations by providing in-depth information about our products.</li>
+          </ul>
+      </div>
+
+    </section>
+
+
+    <!--// more -->
+    <section id="about2" class="about2">
+    	<div id="main">
+			<div id="main_left">
+				<h2>Fun facts!</h2>
+                <p>Korean international student</p>
+                <p>with New Zealand (a.k.a Kiwi) accent!</p>
+                <p>"G'day Mate!"</p>
+                <p></p>
+            </div>
+
+			<div id="main_right">
+				<h2>I am a Travel Addict!</h2>
+                <p>Here are photos of my journey through Europe</p>
+                <p>and basically just me & food!</p>
+            </div>
+        </div>
+
+      	<iframe src=other.html class="targetframe">
+    	</iframe>
+    	<div class="content-wrap">
+    		<h3>•</h3>
+    		<h3>•</h3>
+    		<h3>•</h3>
+    		<a href="other.html" class="btn moreabout" target=_blank>To see more photos!</a>
+
+    		<h2>Why I love traveling</h2>
+      		<p>In primary school, when asked about my dream job, I wrote down, <i>Adventurer.</i> My teacher looked at me anxiously, “Heejoo, <i>Adventurer</i> isn’t a real job.” Despite the discouragement, <b>I knew I mustn’t allow my dreams to remain dreams.</b></p>
+      		<p>I strongly believe traveling offers lessons of cultural sensitivity, maturity, and amusement. Because at the end of the day, what is life for? Travelling enables us to discover meaningful moments.</p>
+      	</div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- // Footer & contact info -->
+  <footer id="contact">
+
+        
+    <div class="content-wrap">
+        <h2>Let's keep in touch :)</h2>
+            
+            <!-- Social media and contact links -->
+          <div class="contact-info">
+            <a href="mailto:heejoojin97@gmail.com" target="_blank">Send Email</a>
+            <a href="https://www.instagram.com/heejoo.jin/?hl=en" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=100004093854722" target="_blank">Facebook</a>
+          </div>
+
+          <p><a href="#top">Back to top</a></p>
+
+        </div>
+  </footer>
+ 
 </body>
 </html>
