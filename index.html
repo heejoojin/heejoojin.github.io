@@ -5,19 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--(initial scale)it is to how change the widteh when phones are tilted--> 
 	<title>Heejoo Jin</title>
-
 	<link href="https://fonts.googleapis.com/css?family=Fugaz+One|Lobster" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet">
-
-
 	<link rel="stylesheet" href="home.css">
 	<!--<link rel="stylesheet" href="grid.css">-->
 	<!--http://jessdesigntan.com
 		https://www.thebeastisback.com/about/-->
 </head>
 <body>
-	<section class="sec1">
+	<section class="sec1" id="top">
 	<div class="box1">
 		<div class="heejoo">
 		<h1>Hi, I'm Heejoo !</i></h1>
@@ -54,10 +51,13 @@ chocolate lover <i class="fa fa-heart" id="heart" aria-hidden="true"></i> </p>
 		<div class="box3-2">
 			<!----------article---------------->
 			<h1>About me</h1>
-			<article class="aboutme">
-				<!--<i class="fa fa-hand-paper-o" aria-hidden="true"></i>-->
-				<p> Second-Year Computer Science Student at Georgia Tech.</p>
-			</article>
+			<div class="aboutme">
+<p id="aboutme1">Curious Second-Year Computer Science Student at Georgia Tech.</p>
+<p id="aboutme2">
+	<br/>
+My current passion is Web Development, Augumented Reality, and <span>UI &bull; UX</span> Design. I strive to strengthen my skills of advanced coding techniques as well as artistic skills.
+</p>
+			</div>
 		</div>
 	</section>
 	<section class="sec4">
@@ -66,18 +66,22 @@ chocolate lover <i class="fa fa-heart" id="heart" aria-hidden="true"></i> </p>
 		<div class="box4">
 		<div class="box4-1">
 				<div class="inner1">
+				<a href="http://www.gatech.edu" target="_blank">
 				<img class="gatech" src="icons/gatech.png" alt="">
+				</a>
 				</div>
 				<div>
 				<div class="inner2">
 				<p>August 2017 - Present<br/><br/><b>Georgia Institute of Technology</b><br/>Atlanta, Georgia<br/><br/><span id="major"><b>Compuer Science<br/>- Media & Intelligence</b><br/></span></p>
 				</div>
-				<p><span id="inner3"><b>&bull; GPA:</b> 3.68 / 4.00<br/><b>&bull; Relevant courses:</b><br/>Intro to Computing Using Python, Object&ndash;Oriented Programming, Data Structure & Algorithms</span></p>
+				<p><span id="inner3"><b>&bull; GPA:</b> 3.68 / 4.00<br/><b>&bull; Relevant courses:</b><br/>Intro to Computing Using Python, <span id="oo">Object&ndash;Oriented</span> Programming, Data Structure & Algorithms</span></p>
 				</div>
 		</div>
 		<div class="box4-2">
 			<div class="inner1">
+				<a href="https://www.yonsei.ac.kr/en_sc/index.jsp" target="_blank">
 				<img class="yonsei" src="icons/yonseiuni.png" alt="">
+			</a>
 			</div>
 			<div>
 				<div class="inner2">
@@ -88,13 +92,15 @@ chocolate lover <i class="fa fa-heart" id="heart" aria-hidden="true"></i> </p>
 		</div>
 		<div class="box4-3">
 			<div class="inner1">
+				<a href="http://www.stmatts.school.nz/" target="_blank">
 				<img class="stmatts" src="icons/stmatts.png" alt="">
+				</a>
 			</div>
 			<div>
 			<div class="inner2">
 				<p><span id="text">Feburary 2014 - December 2016<br/><br/><b>St Matthew's Collegiate School</b><br/>Wellington, New Zealand</span><br/></p>
 			</div>
-				<p><span id="inner3"><b>&bull; GPA:</b> 4.00 / 4.00<br/><b>&bull; Honors &#38; Awards:</b><br/>Valedictorian, The Duke of Edinburgh&prime;s Hillary Silver Awards, NZ Choral Federation&prime;s Regional &ndash; FestivalsFestival Cup</span></p>
+				<p><span id="inner3"><b>&bull; GPA:</b> 4.00 / 4.00<br/><b>&bull; Honors &#38; Awards:</b><br/>Valedictorian, The Duke of Edinburgh&prime;s Hillary Silver Awards, <span id="bigsing">NZ Choral Federation&prime;s Regional</span> &ndash; FestivalsFestival Cup</span></p>
 			</div>
 		</div>
 		</div>
@@ -104,10 +110,12 @@ chocolate lover <i class="fa fa-heart" id="heart" aria-hidden="true"></i> </p>
 		<h1 id="title">Experience</h1>
 		<div class="box5">
 			<div class="box5-1">
+				<a href="https://www.cartoonnetwork.com/games/" target="_blank">
 				<img class="cn" src="images/cn.png" alt="">
+				</a>
 			</div>
 			<div class="box5-2">
-				<p><span id="date">January 2019 - Present</span><br/><br/><b>Turner Brodcasting System<br/>Cartoon Network</b><br/><span id="loco">Atlanta, Georgia</span><br/><br/>Games Quality Assurance Engineer Co-op</p>
+				<p><span id="date">January 2019 - Present</span><br/><br/><b>Turner Brodcasting System<br/>Cartoon Network Games</b><br/><span id="loco">Atlanta, Georgia</span><br/><br/><b>Games Quality Assurance Engineer Co-op</b></p>
 			</div>
 		</div>
 		<div class="box5-3">
@@ -124,7 +132,9 @@ chocolate lover <i class="fa fa-heart" id="heart" aria-hidden="true"></i> </p>
 		<h1>Project</h1>
 		<div class="box5">
 			<div class="box5-1">
+				<a href="http://ael.gatech.edu/lab/" target="_blank">
 				<img class="ar" src="icons/ar.png" alt="">
+				</a>
 			</div>
 			<div class="box5-2" id="box6-2">
 				<p id="text">August 2018 - Present<br/><br/><b>Augumented Reality Design Project</b><br/><br/>Georgia Institute of Technology<br/>Vertical Integrated Program</p>
@@ -145,16 +155,27 @@ chocolate lover <i class="fa fa-heart" id="heart" aria-hidden="true"></i> </p>
 		<h1>Involvement</h1>
 		<div class="box7">
 			<ul>
-				<li><img class="ksea" src="icons/ksea.png" alt="">
+				<li>
+					<a href="https://www.facebook.com/KSEA.HQ/" target="_blank">
+					<img class="ksea" src="icons/ksea.png" alt="">
+					</a>
 					<div class="involvement"><b>KSEA</b><br/>Korean American Scientists and Engineers Association<br/><br/><b>Finance Director</b></div>
 				</li>
-				<li><img class="akpsi" src="icons/akpsi.png" alt="">
+				<li>
+					<a href="https://www.gtakpsi.com" target="_blank">
+					<img class="akpsi" src="icons/akpsi.png" alt="">
+					</a>
 					<div class="involvement"><b>Alpha Kappa Psi</b><br/>Professional Co-ed Business Fraternity<br/><br/><b>Active Member</b></div>
 				</li>
-				<li><img class="wacc" src="icons/wacc.png" alt="">
+				<li>
+					<a href="https://www.facebook.com/groups/waccgt/" target="_blank">
+					<img class="wacc" src="icons/wacc.png" alt="">
+					</a>
 					<div class="involvement"><b>Women@CC</b><br/>Georgia Tech Women @ College of Computing<br/><br/><b>Active Member</b></div>
 				</li>
-				<li><img class="aaacf" src="icons/aaacf.png" alt="">
+				<li><a href="https://2018aaacf.splashthat.com" target="_blank">
+					<img class="aaacf" src="icons/aaacf.png" alt="">
+				</a>
 					<div class="involvement"><b>AAACF</b><br/>Atlanta Asian American College Fair<br/><br/><b>College Representative Student Consultant of Georgia Tech</b></div>
 				</li>
 		</div>
@@ -173,11 +194,17 @@ chocolate lover <i class="fa fa-heart" id="heart" aria-hidden="true"></i> </p>
 				<h1>Fun Facts !</h1>
 				<img class="funfact" src="images/funfact.png" alt="">
 			</div>
-	</section>
-	<div class="box10">
-		<div class="copyright">
-			<p>Copyright &copy; 2019 Heejoo Jin. All rights reserved.</p><!--copyright symbol-->
 		</div>
-	</div>
+	</section>
+	<section class="sec9">
+		<div class="bottom">
+		<a href="#top"><p>&nbsp;&nbsp;Back to top &#8593;&nbsp;&nbsp;</p></a>
+		</div>
+	</section>
+	<section class="sec10">
+		<div class="box10">
+			<p>Copyright &copy; 2019 Heejoo Jin. All rights reserved.</p>
+		</div>
+	</section>
 </body>
 </html>
