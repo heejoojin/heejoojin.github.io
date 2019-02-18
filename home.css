@@ -268,6 +268,16 @@ b {
 	white-space: nowrap;
 }
 
+.btn {
+	background: #edb49a;
+	border-radius: 25px;
+	text-decoration: none;
+	color: #3d5c7b;
+	padding: 10px;
+	display: block;
+	float: right;
+}
+
 /* ----------------------------------- sec4 -----------------------------------  */
 .sec4 {
 	background: #edb49a;
@@ -395,6 +405,11 @@ peach beige = #edb49a*/
 
 .cn:hover {
 	background: #e6e6e6;
+}
+
+#coop {
+	border-bottom: 3px solid #778899;
+	box-shadow: inset 0 -8px 0 #778899;
 }
 
 /* ----------------------------------- sec6 -----------------------------------  */
