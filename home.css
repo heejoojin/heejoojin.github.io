@@ -269,10 +269,10 @@ b {
 }
 
 .btn {
-	background: #edb49a;
+	background: #e27982;
 	border-radius: 25px;
 	text-decoration: none;
-	color: #3d5c7b;
+	color: white;
 	padding: 10px;
 	display: block;
 	float: right;
@@ -821,6 +821,7 @@ h1 {
 }
 .sec3 {
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .box3 {
 	padding-top: 10px;
