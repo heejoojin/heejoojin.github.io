@@ -89,6 +89,8 @@ b {
 .sec1 {
 	background: #edb49a;
 	width: 100%;
+	
+	min-height: 320px;
 }
 
 .box1 {
@@ -139,6 +141,10 @@ b {
 
     -webkit-text-decoration-line: underline;
     -webkit-text-decoration-color: #e4e3e1;
+}
+
+#greeting {
+	font-size: 25px;
 }
 
 /* ----------------------------------- sec2 -----------------------------------  */
@@ -394,6 +400,17 @@ peach beige = #edb49a*/
 	float: center;
 }
 
+.box5-3 a {
+	text-decoration: none;
+	-webkit-text-decoration: none;
+	color: #3d5c7b;
+}
+
+#games:hover {
+	border-bottom: 3px solid white;
+	box-shadow: inset 0 -8px 0 white;
+}
+
 .cn {
 	width: 120px;
 	background: #edb49a;
@@ -503,7 +520,7 @@ peach beige = #edb49a*/
 
 .box7 li {
 	float: left;
-	width: 25%;
+	width: 33%;
 }
 
 .involvement {
@@ -1049,6 +1066,8 @@ h1 {
 	max-width: 1040px;
 	margin: 0 auto;
 }
+
+
 
 .finn, .bubble, .jake {
 	width: 75px;
