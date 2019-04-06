@@ -10,6 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="home.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!--<link rel="stylesheet" href="grid.css">-->
 	<!--http://jessdesigntan.com
 		https://www.thebeastisback.com/about/-->
@@ -20,6 +21,12 @@
 			</customHeaders>
 		</httpProtocol>
 	</system.webServer>
+	<script>
+		$(document).ready(function(){
+   		$('#iframe').attr('src', 'https://munystudio.herokuapp.com');
+		});
+
+	</script>
 </head>
 <body>
 	<section class="sec1" id="top">
@@ -164,7 +171,7 @@ My current passion is Web Development, Augumented Reality, and <span>UI &bull; U
 		<h2><i class="fas fa-project-diagram" id="proj"></i></i></h2>
 		<h1>Project</h1>
 		<p id="project_title"><span id="project_title_span"><b>Muny Pottery Studio &ndash; Womens&rsquo; Web App Developement Workshop with HubSpot</b></span><br/><br/><a href="http://munystudio.herokuapp.com" target="_blank">&raquo; munystudio.herokuapp.com</a></p>
-		<iframe src="http://munystudio.herokuapp.com"></iframe>
+		<iframe src="http://munystudio.herokuapp.com" id="iframe"></iframe>
 		<div class="box5-3">
 			<p>
 
