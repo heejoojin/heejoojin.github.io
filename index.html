@@ -12,6 +12,13 @@
 	<!--<link rel="stylesheet" href="grid.css">-->
 	<!--http://jessdesigntan.com
 		https://www.thebeastisback.com/about/-->
+	<system.webServer>
+		<httpProtocol>
+			<customHeaders>
+				<add name="X-Frame-Options" value="sameorigin" />
+			</customHeaders>
+		</httpProtocol>
+	</system.webServer>
 </head>
 <body>
 	<section class="sec1" id="top">
