@@ -806,6 +806,13 @@ b {
 	height: auto;
 }
 
+iframe {
+	max-width: 480px;
+	margin: 0 auto;
+	min-width: 250px;
+	height: 280px;
+}
+
 .box7 {
 	padding: 10px;
 	padding-right: 30px;
@@ -829,6 +836,10 @@ b {
 .box8-1 h1 {
 	font-size: 15px;
 	margin-top: 0;
+}
+
+.box8-1 b {
+	font-size: 13px;
 }
 
 .box8-2 {
@@ -1206,6 +1217,7 @@ h1 {
 #inner3 {
 	padding-left: 20px;
 }
+
 
 .sec7 img {
 	margin-left: 10px;
