@@ -806,6 +806,10 @@ b {
 	height: auto;
 }
 
+.iframe {
+	width: 100%;
+	overflow: hidden;
+}
 iframe {
 	max-width: 480px;
 	margin: 0 auto;
