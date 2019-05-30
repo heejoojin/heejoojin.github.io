@@ -806,19 +806,26 @@ b {
 	height: auto;
 }
 
-.iframe {
+/*.iframe {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
+}*/
 
-}
 iframe {
-	max-width: 480px;
-	margin: 0 auto;
-	min-width: 250px;
-	height: 280px;
-	
+	display: none;
+}
 
+
+
+.iframe {
+	display: none;
+}
+
+.project_title_span {
+	padding-right: 20px;
+	padding-left: 20px;
+	overflow: hidden;
 }
 
 .box7 {
