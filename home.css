@@ -426,7 +426,7 @@ peach beige = #edb49a*/
 	box-shadow: inset 0 -8px 0 white;
 }
 
-.cn {
+.cn, .epic {
 	width: 120px;
 	background: #edb49a;
 	padding: 5px;
@@ -435,7 +435,11 @@ peach beige = #edb49a*/
 	float: right; 
 }
 
-.cn:hover {
+.epic {
+	background: white;
+}
+
+.cn:hover, .epic:hover {
 	background: #e6e6e6;
 }
 
@@ -444,6 +448,10 @@ peach beige = #edb49a*/
 	box-shadow: inset 0 -8px 0 #778899;
 }
 
+#epic {
+	border-bottom: 3px solid #eeeeee;
+	box-shadow: inset 0 -8px 0 #eeeeee;
+}
 /* ----------------------------------- sec6 -----------------------------------  */
 
 .sec6 {
@@ -764,7 +772,7 @@ b {
 	padding-left: 50px;
 }
 
-.sec4 img, .cn, .ar {
+.sec4 img, .cn, .ar, .epic {
 	float: none;
 	margin: 0;
 }
@@ -784,7 +792,7 @@ b {
 	text-align: center;
 }
 
-.cn {
+.cn, .epic {
 	width: 90px;
 }
 
@@ -935,7 +943,7 @@ h1 {
 	border-radius: 25px;
 }
 
-.cn {
+.cn, .epic {
 	width: 100px;
 }
 
@@ -1044,7 +1052,7 @@ h1 {
 	height: auto;
 }
 
-.cn {
+.cn, .epic {
 	width: 110px;
 }
 
@@ -1065,7 +1073,7 @@ h1 {
 	width: 45%;
 	float: left;
 	margin: 20px;
-	height: 520px;
+	height: 540px;
 }
 
 .box8-2 {
@@ -1186,7 +1194,7 @@ h1 {
 	padding-left: 20px;
 }
 
-.cn {
+.cn, .epic {
 	width: 150px;
 }
 
