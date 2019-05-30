@@ -809,18 +809,23 @@ b {
 .iframe {
 	width: 100%;
 	overflow: hidden;
+	position: relative;
+
 }
 iframe {
 	max-width: 480px;
 	margin: 0 auto;
 	min-width: 250px;
 	height: 280px;
+	
+
 }
 
 .box7 {
 	padding: 10px;
 	padding-right: 30px;
 	text-align: center;
+
 }
 
 .box7 li {
