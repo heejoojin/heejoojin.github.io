@@ -915,6 +915,11 @@ iframe {
 	width: 50%;
 }
 
+#ml-project {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
 }
 
 /* ----------------------------------- 600 - 767px -----------------------------------*/ 
@@ -1175,7 +1180,6 @@ h1 {
 	padding-bottom: 0;
 }
 
-
 }
 
 /* ----------------------------------- 1040px -----------------------------------  */
@@ -1352,3 +1356,30 @@ h1 {
 }
 
 }
+
+#ml-title {
+	background: #eeeeee;
+}
+
+#ml-line {
+	background: #cccccc;
+	
+}
+
+#ml-line p {
+	/*olor:#3d5c7b;*/
+}
+
+#ml-project {
+	background: white;
+}
+
+#ml-project p {
+	background: #cccccc;
+	/*color:#3d5c7b;*/
+}
+
+.bottom {
+	padding: zero;
+}
+
