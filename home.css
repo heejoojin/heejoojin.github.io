@@ -104,14 +104,6 @@ iframe {
 
 }
 
-.siemens_1 {
-	width: 80%;
-	height: auto;
-	padding-top: 10px;
-
-}
-
-
 /* ----------------------------------- sec1 -----------------------------------  */
 .sec1 {
 	background: #edb49a;
@@ -266,7 +258,7 @@ iframe {
 	padding-bottom: 10px;
 }
 
-#siemens {
+#recent {
 	border-bottom: 3px solid #e27982;
 	box-shadow: inset 0 -8px 0 #e27982;
 }
@@ -438,32 +430,28 @@ peach beige = #edb49a*/
 	box-shadow: inset 0 -8px 0 white;
 }
 
-.cn, .epic {
+.cn, .epic, .samsung {
 	width: 120px;
-	background: #edb49a;
+	background: white;
 	padding: 5px;
 	border-radius: 15px;
 	margin: 10px;
-	float: right; 
+	float: right;
 }
 
-.epic {
-	background: white;
+.samsung {
+	width: 140px;
 }
 
-.cn:hover, .epic:hover {
+.cn:hover, .epic:hover, .samsung:hover {
 	background: #e6e6e6;
 }
 
-#coop {
-	border-bottom: 3px solid #778899;
-	box-shadow: inset 0 -8px 0 #778899;
-}
-
-#epic {
+/*#samsung {
 	border-bottom: 3px solid #eeeeee;
 	box-shadow: inset 0 -8px 0 #eeeeee;
-}
+}*/
+
 /* ----------------------------------- sec6 -----------------------------------  */
 
 .sec6 {
@@ -790,10 +778,6 @@ b {
 	padding-top: 10px;
 }
 
-.siemens_1 {
-	max-width: 150px;
-	width: 80%;
-}
 
 .box3-1 {
 	padding-bottom: 15px;
