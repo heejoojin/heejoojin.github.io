@@ -10,6 +10,7 @@ peach beige = #edb49a*/
 body {
 	font-family: 'Work Sans', sans-serif;
 	margin: 0;
+	background-color: #edb49a;
 }
 
 
@@ -342,7 +343,7 @@ iframe {
 	box-shadow: inset 0 -8px 0 #f7cab6;
 }
 
-#oo, #bigsing {
+#oop, #bigsing {
 	white-space: nowrap;
 }
 
@@ -430,7 +431,7 @@ peach beige = #edb49a*/
 	box-shadow: inset 0 -8px 0 white;
 }
 
-.cn, .epic, .samsung {
+.cn, .epic {
 	width: 120px;
 	background: white;
 	padding: 5px;
@@ -439,11 +440,7 @@ peach beige = #edb49a*/
 	float: right;
 }
 
-.samsung {
-	width: 140px;
-}
-
-.cn:hover, .epic:hover, .samsung:hover {
+.cn:hover, .epic:hover {
 	background: #e6e6e6;
 }
 
@@ -696,7 +693,7 @@ peach beige = #edb49a*/
 .sec10 {
 	/*border-top: dotted 3px #dddddd; /* just line = solid 1px #dddddd */
 	padding: 8px;
-	background: #b57185;
+	background: #edb49a;
 	/*
 	.boxB {
 		position: relative;
@@ -1173,8 +1170,6 @@ h1 {
 	max-width: 1040px;
 	margin: 0 auto;
 }
-
-
 
 .finn, .bubble, .jake {
 	width: 75px;
