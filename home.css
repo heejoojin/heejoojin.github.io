@@ -80,7 +80,7 @@ b {
 .box3, .box3-1, .aboutme, .now, .box3-2, .box4, .inner1, .inner2,
 .box4-1, .box4-2, .box4-3, .box4-4,
 .box5, .box5-1, .box5-2, .box5-3,
-.box7, .box8-1, .box8-2, .bottom , .box5-3-2, .box5-3-1 {
+.box7, .box8-1, .box8-2, .bottom , .box5-3-2, .box5-3-1, .box5-3-3, .box5-3-4 {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -530,7 +530,7 @@ peach beige = #edb49a*/
 #cs2340 {
 	width: 60%;
 }
-.cs2340 {
+.image {
 	width: 100%;
 	height: 100%;
 	
@@ -541,6 +541,8 @@ peach beige = #edb49a*/
 	border: none;
 	border-radius: 25px;
 	border: solid 10px #cccccc;
+
+	background: white;
 
 }
 
@@ -892,7 +894,7 @@ iframe {
 	font-size: 13px;
 }
 
-.cs2340 {
+.image {
 	width: 50%;
 }
 
@@ -1035,7 +1037,7 @@ h1 {
 	padding: 0;
 }
 
-.cs2340 {
+.image {
 	width: 50%;
 }
 
@@ -1112,17 +1114,25 @@ h1 {
 	padding-top: 10px;
 }
 
-.box5-3-1 {
+.box5-3-1, .box5-3-4 {
 	width: 60%;
 	padding: 0;
 	float: left;
 	height: 100%;
 }
 
-.box5-3-2 {
+.box5-3-2, .box5-3-3 {
 	width: 30%;
 	height: 100%;
 	padding: 0;
+	float: right;
+}
+
+.box5-3-3 {
+	float: left;
+}
+
+.box5-3-4 {
 	float: right;
 }
 
@@ -1174,6 +1184,10 @@ h1 {
 .finn, .bubble, .jake {
 	width: 75px;
 	height: auto;
+}
+
+.images {
+	margin: 0px;
 }
 
 .sec4, .sec5, .sec6, .sec7, .sec8, .sec9 {
@@ -1285,17 +1299,25 @@ h1 {
 	padding-left: 20px;
 }
 
-.box5-3-1 {
+.box5-3-1, .box5-3-4 {
 	width: 60%;
 	padding-top: 40px;
 	float: left;
 	margin: auto;
 }
 
-.box5-3-2 {
+.box5-3-2, .box5-3-3 {
 	width: 30%;
 	height: 100%;
 	padding: 0;
+	float: right;
+}
+
+.box5-3-3 {
+	float: left;
+}
+
+.box5-3-4 {
 	float: right;
 }
 
@@ -1332,8 +1354,6 @@ h1 {
 }
 .sec9 {
 	padding-top: 0;
-}
-
 }
 
 #ml-title {
