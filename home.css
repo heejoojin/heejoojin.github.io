@@ -87,7 +87,7 @@ b {
 }
 
 iframe {
-	width: 80%;
+	width: 70%;
 	height: 500px;
 	float: center;
 	margin: 0 auto;
@@ -527,7 +527,7 @@ peach beige = #edb49a*/
 
 }
 
-#cs2340 {
+#two_inner_boxes {
 	width: 60%;
 }
 .image {
@@ -1311,6 +1311,14 @@ h1 {
 	height: 100%;
 	padding: 0;
 	float: right;
+}
+
+#face_recognition-right {
+	width: 45%;
+}
+
+#face_recognition-left {
+	width: 45%;
 }
 
 .box5-3-3 {
