@@ -431,7 +431,7 @@ peach beige = #edb49a*/
 	box-shadow: inset 0 -8px 0 white;
 }
 
-.cn, .epic {
+.cn, .epic, .deepnoid {
 	width: 120px;
 	background: white;
 	padding: 5px;
@@ -440,7 +440,11 @@ peach beige = #edb49a*/
 	float: right;
 }
 
-.cn:hover, .epic:hover {
+.deepnoid {
+	background: #3d5c7b;
+}
+
+.cn:hover, .epic:hover{
 	background: #e6e6e6;
 }
 
@@ -790,7 +794,7 @@ b {
 	padding-left: 50px;
 }
 
-.sec4 img, .cn, .ar, .epic {
+.sec4 img, .cn, .ar, .epic, .deepnoid {
 	float: none;
 	margin: 0;
 }
@@ -810,7 +814,7 @@ b {
 	text-align: center;
 }
 
-.cn, .epic {
+.cn, .epic, .deepnoid {
 	width: 90px;
 }
 
@@ -992,7 +996,7 @@ h1 {
 	border-radius: 25px;
 }
 
-.cn, .epic {
+.cn, .epic, .deepnoid {
 	width: 100px;
 }
 
@@ -1105,7 +1109,7 @@ h1 {
 	height: auto;
 }
 
-.cn, .epic {
+.cn, .epic, .deepnoid {
 	width: 110px;
 }
 
@@ -1286,7 +1290,7 @@ h1 {
 	padding-left: 20px;
 }
 
-.cn, .epic {
+.cn, .epic, .deepnoid {
 	width: 150px;
 }
 
