@@ -1325,6 +1325,14 @@ h1 {
 	width: 45%;
 }
 
+#hci-right {
+	width: 60%;
+}
+
+#hci-left {
+	width: 30%;
+}
+
 .box5-3-3 {
 	float: left;
 }
