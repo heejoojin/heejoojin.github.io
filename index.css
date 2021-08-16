@@ -86,9 +86,9 @@ b {
 	box-sizing: border-box;
 }
 
-iframe {
+iframe, #muny-studio {
 	width: 70%;
-	height: 500px;
+	height: 400px;
 	float: center;
 	margin: 0 auto;
 	padding: 0;
@@ -97,12 +97,17 @@ iframe {
 	border: none;
 	border-radius: 25px;
 	border: solid 10px #cccccc;
+	max-width: 750px;
+	max-height: 400px;
+}
 
+#muny-studio {
+	width: 50%;
+	height: auto;
 }
 
 #heart_no {
 	color: white;
-
 }
 
 /* ----------------------------------- sec1 -----------------------------------  */
@@ -917,6 +922,10 @@ h1 {
 	font-size: 30px;
 }
 
+iframe {
+	height: 250px;
+}
+
 .box1 {
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -1050,6 +1059,9 @@ h1 {
 /* ----------------------------------- 768px -----------------------------------  */
 @media (min-width: 768px) {
 
+iframe {
+	height: 300px;
+}
 .box3-1 {
 	float: right;
 	width: 35%;
@@ -1130,6 +1142,14 @@ h1 {
 	height: 100%;
 	padding: 0;
 	float: right;
+}
+
+#hci-right {
+	width: 50%;
+}
+
+#hci-left {
+	width: 40%;
 }
 
 .box5-3-3 {
